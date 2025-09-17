@@ -32,6 +32,9 @@ pimcore:
 #            'Pimcore\Model\Document\Page': 'App\Model\Document\Page'
 #            'Pimcore\Model\Document\Link': 'App\Model\Document\Link'
 #            'Pimcore\Model\Document\Listing': 'App\Model\Document\Listing'
+    models:
+        class_overrides:
+            'Pimcore\Model\DataObject\Product': 'App\Model\DataObject\Product'
 
 
 #### CUSTOM DOCUMENT EDITABLES
