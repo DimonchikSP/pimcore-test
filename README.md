@@ -41,7 +41,7 @@ URL should be without brackets.
 
 
 ### 7.Short logic description
-Al logic placed to ```src/Model```
+All logic placed to ```src/Model```
 1. CLI command receive URL as parameter ```\App\Command\Product\ImportProductsDataCommand::execute```
 2. ImportProcessor.php collect data and proceed trough child services and pass collected data to ImportProductFromDto.php.
 - 2.2.HttpDataFetcher.php request json by URL
