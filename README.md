@@ -6,7 +6,11 @@ This repository contains a Pimcore test project running in Docker. Follow the st
 ### 1.Clone the repository
 
 ```git clone https://github.com/DimonchikSP/pimcore-test/tree/Pimcore_Testwork pimcore```
+
 ```cd pimcore```
+
+### 1.1 Switch to branch:
+```Pimcore_Testwork```
 
 
 ### 2.	Start Docker containers
